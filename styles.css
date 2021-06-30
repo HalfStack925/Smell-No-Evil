@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  align-items: center;
 }
 
 /* NAV BAR*/
@@ -12,7 +13,9 @@
   padding-bottom: 30px;
   max-width: 100%;
   height: auto;
+
 }
+
 #navBar ul {
   margin: 0;
   padding: 0;
@@ -22,6 +25,7 @@
 #navBar ul li {
   margin: 0;
   padding: 0;
+  text-align: center;
   display: inline-block;
 }
 
@@ -74,10 +78,8 @@ h1 {
   height: auto;
 }
 
-.credits{
-  font-size: 25px;
-  text-align: center;
-  align-items: center;
+pre{
+  font-size: 15px;
 }
 
 /* VIDEOS PAGE*/
