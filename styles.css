@@ -38,6 +38,7 @@
 
 body {
   background-image: url(img/logoDarkBlur.jpg);
+  background-attachment: fixed;
   background-repeat: repeat-y;
   background-color: #0000;
   background-size: 100%;
@@ -60,8 +61,8 @@ h1 {
   height: auto;
 }
 
-/*MAIN PAGE ABOUT*/
-.synop {
+/*MAIN PAGE ABOUT & CREDITS*/
+.synop, .credits{
   color: #f5deb3;
   align-items: center;
   text-align: center;
@@ -71,6 +72,12 @@ h1 {
   letter-spacing: 2px;
   max-width: 100%;
   height: auto;
+}
+
+.credits{
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
 }
 
 /* VIDEOS PAGE*/
@@ -83,6 +90,9 @@ h1 {
   font-family: "Architects Daughter";
   letter-spacing: 2px;
 }
+
+/*CASTING*/
+
 
 /*PHOTOS PAGE */
 /* Slideshow container */
