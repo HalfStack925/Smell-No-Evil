@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   align-items: center;
+  background-color: #0000;
 }
 
 /* NAV BAR*/
@@ -41,16 +42,19 @@
 }
 
 body {
-  background-image: url(img/logoDarkBlur.jpg);
+  background-image: url(img/logoDarkBlur-min.jpg);
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-color: #0000;
   background-size: 100%;
   scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
   color: #f5deb3;
+  text-align: center;
 }
 
 /*MAIN PAGE TRAILER*/
