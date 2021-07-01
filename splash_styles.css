@@ -4,9 +4,13 @@ body,html{
 }
 
 .mainPageLogo{
-  background-image: url(img/logoMain-min.jpg);
+  background-image: url(img/logoEnter.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  
 }
