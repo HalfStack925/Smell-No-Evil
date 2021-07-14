@@ -14,7 +14,6 @@
   padding-bottom: 30px;
   max-width: 100%;
   height: auto;
-
 }
 
 #navBar ul {
@@ -70,7 +69,7 @@ h1 {
 }
 
 /*MAIN PAGE ABOUT & CREDITS*/
-.synop, .credits{
+.synop {
   color: #f5deb3;
   align-items: center;
   text-align: center;
@@ -82,8 +81,13 @@ h1 {
   height: auto;
 }
 
-pre{
-  font-size: 15px;
+.credits {
+  color: #f5deb3;
+  line-height: 50px;
+  font-family: "Architects Daughter";
+  text-align: center;
+  font-size: larger;
+  padding: 70px 0;
 }
 
 /* VIDEOS PAGE*/
@@ -98,10 +102,9 @@ pre{
 }
 
 /*CASTING*/
-pre{
+pre {
   padding-right: 75px;
 }
-
 
 /*PHOTOS PAGE */
 /* Slideshow container */
