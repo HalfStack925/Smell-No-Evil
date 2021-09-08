@@ -2,7 +2,8 @@
   box-sizing: border-box;
   align-items: center;
   background-color: #0000;
-}
+ }
+
 
 /* NAV BAR*/
 #navBar {
@@ -35,7 +36,7 @@
   display: block;
   text-align: center;
   font-size: larger;
-  font-family: "Architects Daughter";
+  font-family: "Architects Daughter", sans-serif;
   font-size: 22px;
   color: #f5deb3;
 }
@@ -75,7 +76,7 @@ h1 {
   text-align: center;
   padding: 10px;
   line-height: 50px;
-  font-family: "Architects Daughter";
+  font-family: "Architects Daughter", sans-serif;
   letter-spacing: 2px;
   max-width: 100%;
   height: auto;
@@ -84,7 +85,7 @@ h1 {
 .credits {
   color: #f5deb3;
   line-height: 50px;
-  font-family: "Architects Daughter";
+  font-family: "Architects Daughter", sans-serif;
   text-align: center;
   font-size: larger;
   padding: 70px 0;
@@ -97,7 +98,7 @@ h1 {
   text-decoration: underline;
   max-width: 100%;
   height: auto;
-  font-family: "Architects Daughter";
+  font-family: "Architects Daughter", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -211,3 +212,4 @@ pre {
     opacity: 1;
   }
 }
+
