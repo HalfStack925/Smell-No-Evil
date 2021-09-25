@@ -4,6 +4,22 @@
   background-color: #0000;
  }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+}
+
+.container {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;  
+}
 
 /* NAV BAR*/
 #navBar {
@@ -89,6 +105,31 @@ h1 {
   text-align: center;
   font-size: larger;
   padding: 70px 0;
+}
+
+
+/*FOOTER*/
+
+.social{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.social a{
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+a:hover {
+  opacity: 50%;
+}
+
+.social img{
+ 
+  width:75%;
+  padding: 25px;
+ 
 }
 
 /* VIDEOS PAGE*/
