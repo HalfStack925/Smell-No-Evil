@@ -120,7 +120,7 @@ h1 {
 
 a:hover {
   opacity: 50%;
-  transform: scale(200%);
+  transform: scale(150%);
 }
 
 .social img {
